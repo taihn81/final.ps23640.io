@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#mucluachon{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+ul.chonquan li {
+    max-width: 500px;
+    overflow: hidden; /* hover vào không bị tràn hình ra ngoài*/
+}
+ul.chonquan li a img{
+    display: block; /*góc dưới hình không bị so  le*/
+    max-width: 100%;
+    transition: all 0.3s ease-in-out; /* hiệu ứng phóng to 0.3s*/
+}
+ul.chonquan li:hover img{
+    transform: scale(1.1); /* phóng to hình lên 10%*/
+    opacity: 0.8; /* hover chuột vào ảnh mờ đi*/
+}
+ul.chonquan li a{
+    position: relative;
+    display: block;
+}
+ul.chonquan li a .ten-muc{
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    position: absolute; /*cố định*/
+    color: #32C5D2;
+    font-weight: bold;
+    letter-spacing: 2px; /* dãn từng kí tự trong một từ*/
+    text-transform: uppercase; /* in hoa*/
+    font-size: 20px;
+    bottom: 0px;
+    left: 50%; /* tọa độ phía bên trái tấm hình 50%*/
+    transform: translateX(-50%); /* lùi theo chiều x -50%*/ 
+    transition: all 0.3s ease-in-out; /*hiệu ứng*/
+    opacity: 0;/*ẩn chữ đi*/
+}
+ul.chonquan li a:hover .ten-muc{
+    bottom: 50%; /* thay đổi giá trị thuộc tính hover vào chũ chạy lên 50%*/
+    opacity: 1;/* hover chuột vào opacity 1 chữ hiện lên*/
+}
+
+
+
+
+
+
+
+
+ul.chonao li {
+    max-width: 500px;
+    overflow: hidden; /* hover vào không bị tràn hình ra ngoài*/
+}
+ul.chonao li a img{
+    display: block; /*góc dưới hình không bị so  le*/
+    max-width: 100%;
+    transition: all 0.3s ease-in-out; /* hiệu ứng phóng to 0.3s*/
+}
+ul.chonao li:hover img{
+    transform: scale(1.1); /* phóng to hình lên 10%*/
+    opacity: 0.8; /* hover chuột vào ảnh mờ đi*/
+}
+ul.chonao li a{
+    position: relative;
+    display: block;
+}
+ul.chonao li a .ten-muc{
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    position: absolute; /*cố định*/
+    color: #32C5D2;
+    font-weight: bold;
+    letter-spacing: 2px; /* dãn từng kí tự trong một từ*/
+    text-transform: uppercase; /* in hoa*/
+    font-size: 20px;
+    bottom: 0px;
+    left: 50%; /* tọa độ phía bên trái tấm hình 50%*/
+    transform: translateX(-50%); /* lùi theo chiều x -50%*/ 
+    transition: all 0.3s ease-in-out; /*hiệu ứng*/
+    opacity: 0;/*ẩn chữ đi*/
+}
+ul.chonao li a:hover .ten-muc{
+    bottom: 50%; /* thay đổi giá trị thuộc tính hover vào chũ chạy lên 50%*/
+    opacity: 1;/* hover chuột vào opacity 1 chữ hiện lên*/
+}

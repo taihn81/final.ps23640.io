@@ -1,0 +1,88 @@
+.login{
+    width: 300px;
+    height: 310px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 130px;
+    background-color: white;
+    
+}
+h2{
+    color: black;
+    font-family: sans-serif;
+    
+}
+.tieude{
+    
+    color: #868787;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.box{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 20px;
+}
+button{
+    width: 220px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #32C5D2;
+    color: white;
+    margin-top: 10px;
+}
+.dangki{
+    /* width: 100px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #32C5D2;
+    color: white;
+    margin-top: 10px; */
+    width: 130px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #32C5D2;
+    color: white;
+    margin-top: 1px;
+   
+
+}
+.dangki1{
+    width: 80px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #32C5D2;
+    color: white;
+    margin-top: 1px;
+}
+
+
+
+
+button:hover{
+    font-size: 15px;
+}
+input[type="checkbox"]{
+    
+    width: auto;
+}
+body {
+    font-family: courier, arial, helvetica;
+    background-color: black;
+}
+.hihi{
+    font-weight: bold;
+}
